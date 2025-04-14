@@ -1,38 +1,114 @@
-<!-- Privacy Page -->
-<!-- privacy.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Privacy Policy</title>
+  <title>Barbify Privacy Policy</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .gradient-text {
+      background: linear-gradient(45deg, #ff1493, #ff69b4);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    .barbie-shadow {
+      text-shadow: 2px 2px 4px rgba(255, 20, 147, 0.3);
+    }
+    .highlight-box {
+      background: linear-gradient(to right, rgba(255, 20, 147, 0.1), rgba(255, 105, 180, 0.1));
+      border-left: 4px solid #ff1493;
+    }
+  </style>
 </head>
-<body class="bg-pink-50 text-gray-800 font-sans">
+<body class="bg-gradient-to-br from-pink-50 to-purple-50 text-gray-800 font-sans min-h-screen">
   <div class="max-w-4xl mx-auto p-6 space-y-8">
-    <h1 class="text-4xl font-bold text-pink-600">Privacy Policy</h1>
-    <p class="text-sm mb-6">Effective Date: <strong>[Insert Date]</strong></p>
+    <header class="text-center mb-10">
+      <h1 class="text-5xl font-bold gradient-text barbie-shadow mb-4">Barbify Privacy Policy</h1>
+      <p class="text-sm text-pink-600">Last Updated: <strong>14/04/2025</strong></p>
+    </header>
 
-    <h2 class="text-2xl font-semibold mb-2">1. What We Collect</h2>
-    <p>We do not collect, store, or track personal data or images.</p>
+    <div class="bg-white rounded-xl shadow-lg p-8 space-y-8">
+      <section class="space-y-4">
+        <h2 class="text-2xl font-semibold text-pink-600 border-b border-pink-100 pb-2">1. Information We Collect</h2>
+        <p>At Barbify, we respect your privacy. Here's what you need to know:</p>
+        <ul class="list-disc pl-6 space-y-2">
+          <li><strong>Device Identifier:</strong> We generate and store a unique device identifier (UUIDv4) to differentiate users and show your generation history (since we don't have login functionality). This anonymous identifier is only used for this purpose and for blocking users who violate our terms through unlawful activities.</li>
+          <li><strong>No Personal Data:</strong> We do not collect, store, or track personal data or images you upload.</li>
+          <li><strong>Basic Device Information:</strong> We may collect anonymous device information (like OS version) to improve our app.</li>
+          <li><strong>Consent Records:</strong> We store your consent to our terms for compliance purposes.</li>
+        </ul>
+      </section>
 
-    <h2 class="text-2xl font-semibold mt-6 mb-2">2. AI Usage</h2>
-    <p>Image generation is powered by Google’s <strong>Gemini AI</strong>. Your input is sent directly to Gemini. We do not store it. Google may use it for model improvement. Learn more at <a href="https://policies.google.com/privacy" class="text-pink-600 underline" target="_blank">Google’s Privacy Policy</a>.</p>
+      <section class="space-y-4">
+        <h2 class="text-2xl font-semibold text-pink-600 border-b border-pink-100 pb-2">2. How We Use AI</h2>
+        <p>Barbify uses Google's Gemini AI for image generation:</p>
+        <ul class="list-disc pl-6 space-y-2">
+          <li>Your images are processed directly by Gemini and not stored on our servers.</li>
+          <li>Google may use submitted content to improve their models (see <a href="https://policies.google.com/privacy" class="text-pink-600 underline hover:text-pink-800" target="_blank">Google's Privacy Policy</a>).</li>
+          <li>We implement strict content moderation to prevent misuse.</li>
+        </ul>
+      </section>
 
-    <h2 class="text-2xl font-semibold mt-6 mb-2">3. Your Responsibility</h2>
-    <p>Please avoid sharing any private or sensitive information in prompts. You're responsible for what you submit.</p>
+      <section class="space-y-4">
+        <h2 class="text-2xl font-semibold text-pink-600 border-b border-pink-100 pb-2">3. Your Responsibilities</h2>
+        <ul class="list-disc pl-6 space-y-2">
+          <li>Do not upload images containing personal or sensitive information.</li>
+          <li>You retain ownership of generated images but grant us limited rights to display them in your history.</li>
+          <li>Generated images are temporarily stored on our servers solely for the purpose of showing in your image history, and can be deleted by you at any time from the app's interface.</li>
+        </ul>
+      </section>
 
-    <h2 class="text-2xl font-semibold mt-6 mb-2">4. Children’s Privacy</h2>
-    <p>This app is not meant for children under 13. We don’t knowingly collect data from minors.</p>
+      <section class="space-y-4">
+        <h2 class="text-2xl font-semibold text-pink-600 border-b border-pink-100 pb-2">4. Children's Privacy</h2>
+        <p>Barbify is designed for all ages but with special considerations:</p>
+        <ul class="list-disc pl-6 space-y-2">
+          <li>Children under 5 should use the app with parental supervision.</li>
+          <li>We do not knowingly collect personal data from minors without consent.</li>
+          <li>Parents can contact us to review or delete their child's data.</li>
+        </ul>
+      </section>
 
-    <h2 class="text-2xl font-semibold mt-6 mb-2">5. Ads</h2>
-    <p>We only display clean, family-safe ads. No cookies, no cross-site tracking.</p>
+      <section class="space-y-4">
+        <h2 class="text-2xl font-semibold text-pink-600 border-b border-pink-100 pb-2">5. Advertising Policy</h2>
+        <p>We show ads to keep Barbify free:</p>
+        <ul class="list-disc pl-6 space-y-2">
+          <li>All ads are family-friendly and manually reviewed.</li>
+          <li>We use contextual advertising without behavioral tracking.</li>
+          <li>No cookies or cross-site tracking technologies are used.</li>
+        </ul>
+      </section>
 
-    <h2 class="text-2xl font-semibold mt-6 mb-2">6. Policy Updates</h2>
-    <p>We may update this Privacy Policy from time to time. We'll update the date above when we do.</p>
+      <section class="space-y-4">
+        <h2 class="text-2xl font-semibold text-pink-600 border-b border-pink-100 pb-2">6. Data Security</h2>
+        <ul class="list-disc pl-6 space-y-2">
+          <li>All data transmissions are encrypted using SSL/TLS.</li>
+          <li>We implement industry-standard security measures.</li>
+          <li>Regular security audits are conducted.</li>
+        </ul>
+      </section>
 
-    <h2 class="text-2xl font-semibold mt-6 mb-2">7. Contact Us</h2>
-    <p>Email us at <a href="mailto:your-email@example.com" class="text-pink-600 underline">your-email@example.com</a> for any privacy-related questions.</p>
+      <section class="space-y-4">
+        <h2 class="text-2xl font-semibold text-pink-600 border-b border-pink-100 pb-2">7. Changes to This Policy</h2>
+        <p>We may update this policy to reflect changes in our practices. Significant changes will be notified in the app.</p>
+      </section>
+
+      <section class="space-y-4">
+        <h2 class="text-2xl font-semibold text-pink-600 border-b border-pink-100 pb-2">8. Contact Us</h2>
+        <p>For privacy concerns or data requests:</p>
+        <p class="flex items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-pink-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+          </svg>
+          <a href="mailto:privacy@barbify.com" class="text-pink-600 underline hover:text-pink-800">privacy@barbify.com</a>
+        </p>
+      </section>
+    </div>
+
+    <footer class="mt-12 text-center text-sm text-gray-500">
+      <p>&copy; 2025 Barbify. All Rights Reserved.</p>
+      <p class="mt-2">Making the world more fabulous, one image at a time!</p>
+    </footer>
   </div>
 </body>
 </html>
